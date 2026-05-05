@@ -158,10 +158,10 @@ This screenshot shows the user selecting option 1 from the menu to set the holid
 
 File: add_recipient_demo.png
 
-This screenshot shows the user selecting option 2 to add a recipient. The sample recipient entered is Luka, and the relationship is Brother. The program stores this recipient in an `unordered_map`, which allows the recipient to be found quickly later when adding gifts or viewing the planner.
+This screenshot shows the user selecting option 2 to add a recipient. The sample recipient entered is Luka, and the relationship is Brother. The program stores this recipient in an unordered_map, which allows the recipient to be found quickly later when adding gifts or viewing the planner.
 
 ### Screenshot 3: Adding a Gift
 
 File: add_gift_demo.png
 
-This screenshot shows the user selecting option 3 to add a gift for an existing recipient. The user enters Luka as the recipient, Shoes as the gift description, and $50 as the gift price. The gift is then added to Luka's gift list, which is stored using a `vector` inside the recipient record.
+This screenshot shows the user selecting option 3 to add a gift for an existing recipient. The user enters Luka as the recipient, Shoes as the gift description, and $50 as the gift price. The gift is then added to Luka's gift list, which is stored using a vector inside the recipient record.
