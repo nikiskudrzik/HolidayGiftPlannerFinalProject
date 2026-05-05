@@ -1,0 +1,62 @@
+START
+
+Create a GiftPlanner object
+Set choice to 0
+
+WHILE choice is not 9
+    Display menu
+    Get user's choice
+
+    IF choice is 1
+        Get budget from user
+        Save budget
+
+    ELSE IF choice is 2
+        Get recipient name and relationship
+        Add recipient to planner
+
+    ELSE IF choice is 3
+        Get recipient name
+        Get gift description and price
+        Add gift to that recipient
+
+    ELSE IF choice is 4
+        Display all recipients and their gifts
+
+    ELSE IF choice is 5
+        Get recipient name
+        Get gift number
+        Mark that gift as purchased
+
+    ELSE IF choice is 6
+        Set planned total to 0
+        Set purchased total to 0
+
+        FOR each recipient in planner
+            FOR each gift for that recipient
+                Add gift price to planned total
+
+                IF gift is purchased
+                    Add gift price to purchased total
+
+        Display budget totals
+
+    ELSE IF choice is 7
+        Open gift_planner.txt
+        Save budget, recipients, and gifts to file
+        Close file
+
+    ELSE IF choice is 8
+        Open gift_planner.txt
+        Load budget, recipients, and gifts from file
+        Close file
+
+    ELSE IF choice is 9
+        Display goodbye message
+
+    ELSE
+        Display invalid choice message
+
+END WHILE
+
+END
