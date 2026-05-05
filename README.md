@@ -157,3 +157,25 @@ A user could use the program like this:
 7. Mark the gift as purchased
 8. View the budget summary
 9. Save the planner before exiting
+
+## Program Demonstration Screenshots
+
+ These screenshots show three of the main features of the program: setting a budget, adding a recipient, and adding a gift.
+
+### Screenshot 1: Setting the Holiday Budget
+
+File: set_budget_demo.png
+
+This screenshot shows the user selecting option 1 from the menu to set the holiday budget. The user enters a budget of $1000, and the program confirms that the budget has been set. This feature allows the user to create a spending limit before adding gifts.
+
+### Screenshot 2: Adding a Recipient
+
+File: add_recipient_demo.png
+
+This screenshot shows the user selecting option 2 to add a recipient. The sample recipient entered is Luka, and the relationship is Brother. The program stores this recipient in an `unordered_map`, which allows the recipient to be found quickly later when adding gifts or viewing the planner.
+
+### Screenshot 3: Adding a Gift
+
+File: add_gift_demo.png
+
+This screenshot shows the user selecting option 3 to add a gift for an existing recipient. The user enters Luka as the recipient, Shoes as the gift description, and $50 as the gift price. The gift is then added to Luka's gift list, which is stored using a `vector` inside the recipient record.
