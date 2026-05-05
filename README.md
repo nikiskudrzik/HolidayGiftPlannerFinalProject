@@ -120,21 +120,7 @@ gift_planner.txt
 
 It can also load the data back into the program later. This makes the program more useful because the user does not lose their planner information after closing the program.
 
-## How to Compile the Program
-
-To compile the program, make sure all three files are in the same folder:
-
-main.cpp
-GiftPlanner.h
-GiftPlanner.cpp
-
-Then open the terminal in that folder and run:
-
-g++ -std=c++17 main.cpp GiftPlanner.cpp -o HolidayGiftPlanner
-
-The reason both .cpp files are included is because main.cpp contains the main menu, while GiftPlanner.cpp contains the function definitions for the planner. The header file, GiftPlanner.h, is included inside the .cpp files, so it does not need to be compiled separately.
-
-## How to Run the Program
+## How to Compile and Run the Program
 
 To compile the program on Mac in VS Code:
 
